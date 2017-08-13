@@ -1,8 +1,5 @@
 import struct
 
-def isInRange(x):
-    return abs(x) > 0.01 and abs(x) < 1000
-
 path = "Geometry.bin"
 
 with open(path, 'rb') as f:
