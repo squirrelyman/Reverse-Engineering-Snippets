@@ -3,7 +3,7 @@ import struct
 def isInRange(x):
     return abs(x) > 0.01 and abs(x) < 1000
 
-path = "C:/Users/joehe/Documents/Visual Studio 2015/Projects/NFSLoader/NFS Hacks/Cars/A3/Geometry.bin"
+path = "Geometry.bin"
 
 with open(path, 'rb') as f:
     data = f.read()
